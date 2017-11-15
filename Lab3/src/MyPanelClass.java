@@ -36,6 +36,9 @@ public class MyPanelClass extends JPanel {
                         g.setColor(Color.RED);
                         g.fillRect(x1, y1 + (height*4)/5 + 2, width + 1, height/5);
                         
+                        Polygon p3 = new Polygon();
+                        
+                        
                         
                         //Draw an outer border
 //                        g.setColor(Color.YELLOW);
