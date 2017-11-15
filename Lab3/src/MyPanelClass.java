@@ -39,9 +39,9 @@ public class MyPanelClass extends JPanel {
                         g.setColor(Color.WHITE);
                         g.drawLine(x1, y2, x2, y1);
                         //Make an oval
-                        // int ovalSize = 55;
-//                        g.setColor(Color.LIGHT_GRAY);
-//                        g.fillOval(x2/2 - ovalSize/2, y2/2 - ovalSize/2, ovalSize, ovalSize);
+                         int ovalSize = 55;
+                        g.setColor(Color.LIGHT_GRAY);
+                        g.fillOval(width/2 - ovalSize/2, height/2 - ovalSize/2, ovalSize, ovalSize);
 //                        Polygon p = new Polygon();
 //                        p.addPoint(x1 + 5, y1 + 25);
 //                        p.addPoint(x1 + 20, y1 + 10);
