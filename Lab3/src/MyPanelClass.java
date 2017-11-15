@@ -51,6 +51,6 @@ public class MyPanelClass extends JPanel {
                         p.addPoint(x1 + 15, y1 + 45);
                         p.addPoint(x1 + 15, y1 + 25);
                         g.setColor(Color.YELLOW);
-                        g.drawPolygon(p);
+                        g.fillPolygon(p);
             }
 }
